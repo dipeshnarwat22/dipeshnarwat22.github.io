@@ -5,16 +5,19 @@ const settings = {
     isSplash: false,  // Change this to false if you don't want Splash screen.
 };
 
+document.title = "Dipesh's Portfolio";
+
+
 
 //Home Page
 const greeting = {
 	title: "Dipesh Narwat",
 	logo_name: "DipeshNarwat",
-	nickname: "Game Designer & Developer",
+	nickname: "victor",
 	subTitle:
 		"I'm Dipesh Narwat, Game Designer & Developer by profession but also a Researcher in the field of Extended Reality (XR) which embraces Augmented Reality (AR), Virtual Reality (VR), Mixed Reality (MR), and everything in between. ",
 	resumeLink:
-		"",
+		"https://drive.google.com/file/d/1-pj3Wv7PIHkImbKCc1a-Sq1V2-etoGeZ/view?usp=sharing",
     portfolio_repository: "https://www.instagram.com/dipeshnarwat22/",
 };
 
@@ -31,18 +34,18 @@ const socialMediaLinks = {
 
 const skills = {
   data: [
-    /*{
-      title: "Data Science & AI",
+    {
+      title: "Game Design & Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+        "⚡ Developing highly scalable 2D & 3D games and optimising them for platform rich content",
+        "⚡ Experience of working with Unity and Unreal Game Engine",
+        "⚡ 3D Post Processing Effects and Cutscenes"
       ],
       softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+        /*{
+          skillName: "Unity",
+          fontAwesomeClassname: "logos-unity",
           style: {
             backgroundColor: "transparent"
           }
@@ -69,19 +72,19 @@ const skills = {
             backgroundColor: "transparent",
             color: "#3776AB"
           }
-        }
+        }*/
       ]
-    },*/
-    /*{
-      title: "Full Stack Development",
+    },
+   {
+      title: "VR/AR Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
+        "⚡ Building responsive Virtual and Augmented Reality applications and use cases",
+        "⚡ Developing high defination and optimized VR/AR content to run on any platform using Unity",
+        "⚡ Creating and editing 360' Videos or 3D Environment for Virtual Reality"
       ],
       softwareSkills: [
-        {
+       /* {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
@@ -151,10 +154,10 @@ const skills = {
           style: {
             color: "#02569B"
           }
-        }
+        }*/
       ]
     },
-    {
+    /*{
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -221,7 +224,7 @@ const skills = {
           }
         }
       ]
-    },
+    }*/,
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -231,7 +234,7 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience"
       ],
       softwareSkills: [
-        {
+       /* {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
           style: {
@@ -258,9 +261,9 @@ const skills = {
           style: {
             color: "#000000"
           }
-        }
+        }*/
       ]
-    }*/
+    }
   ]
 };
 
@@ -313,70 +316,70 @@ const competitiveSites = {
 
 const degrees = {
   degrees : [
-    /*{
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+    {
+      title: "Manav Rachna International Institute of Research and Studies",
+      subtitle: "B.Tech. in Computer Science",
+          logo_path: "Peach and Gray Watercolor Background Instagram Post (3).png",
+      alt_name: "MRIIRS",
+      duration: "2017 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics."
+        "⚡ Apart from this, I have studied Game Design and Deveopment also gained experience in VR/AR Development too.",
+        "⚡ I have also received Manav Rachna Special Achiever Award from respected director for representing college at international levels and consistently working on Research and Development."
       ],
-      website_link: "http://iiitk.ac.in"
-    }*/
+          website_link: "https://manavrachna.edu.in"
+    }
   ]
 }
 
 const certifications = {
 	certifications: [
+		{
+            title: "Unity Asset Creation And Management",
+            subtitle: "- Jessica Lindl",
+            logo_path: "Unity_Logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/records/3NEKKRW2F7BH",
+            alt_name: "Coursera",
+            color_code: "#010000"
+		},
+		{
+            title: "Game Development",
+            subtitle: "- Brian M. Winn",
+            logo_path: "Unity_Logo.png",
+			certificate_link:
+				"https://www.coursera.org/account/accomplishments/certificate/5C6PGSBQU98T",
+            alt_name: "Coursera",
+            color_code: "#010000"
+		},
+		{
+			title: "Advance C#",
+			subtitle: "- Venkatesh Muniyandi",
+            logo_path: "C#_Logo.png",
+			certificate_link:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-00aa75a4-bdd7-4e1c-8de8-d8fd695ba47e.jpg",
+			alt_name: "Udemy",
+			color_code: "#ffffff"
+		},
+		{
+			title: "Adobe Photoshop CC",            
+			subtitle: "- Phil Ebiner",
+            logo_path: "Adobe_Logo.png",
+			certificate_link:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-d9141b89-211e-4ddf-b681-b593e5a7d8dc.jpg",
+			alt_name: "Udemy",
+            color_code: "#010000"
+		},
+		{
+			title: "Unity 2D Game Development",
+			subtitle: "- Jamal Boutaib",
+            logo_path: "Udemy_logo.png",
+			certificate_link:
+				"https://udemy-certificate.s3.amazonaws.com/image/UC-c7d0d67d-dfe2-411c-8b9a-8b6ac21f0f86.jpg",
+			alt_name: "Unity",
+			color_code: "#ffffff"
+		},
 		/*{
-			title: "Machine Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "stanford_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-			alt_name: "Stanford University",
-			color_code: "#8C151599"
-		},
-		{
-			title: "Deep Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-			alt_name: "deeplearning.ai",
-			color_code: "#00000099"
-		},
-		{
-			title: "ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-			alt_name: "Google",
-			color_code: "#0C9D5899"
-		},
-		{
-			title: "Data Science",
-			subtitle: "- Alex Aklson",
-			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-			alt_name: "IBM",
-			color_code: "#1F70C199"
-		},
-		{
-			title: "Big Data",
-			subtitle: "- Kim Akers",
-			logo_path: "microsoft_logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-			alt_name: "Microsoft",
-			color_code: "#D83B0199"
-		},
-		{
 			title: "Advanced Data Science",
 			subtitle: "- Romeo Kienzler",
 			logo_path: "ibm_logo.png",
@@ -451,21 +454,21 @@ const experience = {
 		"",
 	header_image_path: "experience.svg",
 	sections: [
-		/*{
+		{
 			title: "Work",
 			experiences: [
 				{
-					title: "Associate AI Engineer",
-					company: "Legato Health Technology",
-					company_url: "https://legatohealthtech.com/",
-					logo_path: "legato_logo.png",
-					duration: "June 2020 - PRESENT",
-					location: "Hyderabad, Telangana",
+                    title: "Co-Founder & Immersive Technology Head",
+					company: "Albatros Co.",
+                    company_url: "https://caeli.in/",
+                    logo_path: "Albatros_logo.png",
+					duration: "Aug 2018 - PRESENT",
+					location: "Faridabad, Haryana",
 					description:
-						"I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+						"",
 					color: "#0879bf",
 				},
-				{
+				/*{
 					title: "Android and ML Developer",
 					company: "Muffito Incorporation",
 					company_url: "https://www.linkedin.com/company/muffito-inc/about/",
@@ -486,33 +489,33 @@ const experience = {
 					description:
 						"FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
 					color: "#fc1f20",
-				},
+				}*/,
 			],
 		},
 		{
 			title: "Internships",
 			experiences: [
 				{
-					title: "Data Science Research Intern",
-					company: "Delhivery Pvt. Ltd.",
-					company_url: "https://www.delhivery.com/",
-					logo_path: "delhivery_logo.png",
-					duration: "May 2019 - Sept 2019",
-					location: "Gurgaon, Haryana",
+                    title: "Software Engineering Intern",
+                    company: "KCIS INFO SOLUTIONS PVT LTD",
+                    company_url: "http://www.kcisindia.com/",
+                    logo_path: "KCIS_Logo.png",
+					duration: "May 2019 - July 2019",
+					location: "New Delhi, India",
 					description:
-						"I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+						"Worked on various different ongoing realtime projects for the company and gained some quality experience and knowledge with involvement in the software engineering tools.",
 					color: "#ee3c26",
 				},
 				{
-					title: "Data Science Intern",
-					company: "Intel Indexer LLC",
+                    title: "Software Development Intern",
+                    company: "Shortek PVT LTD",
 					company_url:
-						"https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-					logo_path: "intel_logo.jpg",
-					duration: "Nov 2018 - Dec 2018",
-					location: "Work From Home",
+						"",
+                    logo_path: "Peach and Gray Watercolor Background Instagram Post (11).png",
+					duration: "Sept 2017 - Nov 2017",
+                    location: "Faridabad, India",
 					description:
-						"This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+						"Developed UI modules and a working client-server web as well as android application for third party organization.",
 					color: "#0071C5",
 				},
 			],
@@ -520,7 +523,7 @@ const experience = {
 		{
 			title: "Volunteerships",
 			experiences: [
-				{
+				/*{
 					title: "Google Explore ML Facilitator",
 					company: "Google",
 					company_url: "https://about.google/",
@@ -530,30 +533,30 @@ const experience = {
 					description:
 						"Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
 					color: "#4285F4",
-				},
+				}*/,
 				{
 					title: "Microsoft Student Partner",
 					company: "Microsoft",
 					company_url: "https://www.microsoft.com/",
 					logo_path: "microsoft_logo.png",
-					duration: "Aug 2019 - May 2020",
-					location: "Hyderabad, Telangana",
+					duration: "Jun 2019 - Present",
+					location: "New Delhi, India",
 					description:
 						"Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
 					color: "#D83B01",
 				},
 				{
-					title: "Mozilla Campus Captain",
-					company: "Mozilla",
-					company_url: "https://www.mozilla.org/",
-					logo_path: "mozilla_logo.png",
-					duration: "Oct 2019 - May 2020",
-					location: "Kurnool, Andhra Pradesh",
+                    title: "Student Researcher",
+                    company: "Manav Rachna International Institute of Research & Studies",
+                    company_url: "https://manavrachna.edu.in",
+                    logo_path: "Peach and Gray Watercolor Background Instagram Post (3).png",
+					duration: "Sept 2017 - Present",
+					location: "Faridabad, Haryana",
 					description:
-						"My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+						"Working on various projects with the team at the university's Manav Rachna Innovation and Incubation Center.",
 					color: "#000000",
 				},
-				{
+				/*{
 					title: "Developer Students Club Member",
 					company: "DSC IIITDM Kurnool",
 					company_url:
@@ -575,9 +578,9 @@ const experience = {
 					description:
 						"I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
 					color: "#181717",
-				},
+				}*/,
 			],
-		},*/
+		},
 	],
 };
 
@@ -585,8 +588,10 @@ const experience = {
 const projectsHeader = {
 	title: "Projects",
 	description:
-		"",
-	avatar_image_path: "projects_image.svg",
+		"asfsfar",
+    avatar_image_path: "projects_image.svg",
+    
+    
 };
 
 
@@ -594,39 +599,28 @@ const projectsHeader = {
 const contactPageData = {
 	contactSection: {
 		title: "Contact Me",
-		profile_image_path: "Dipesh.png",
+        profile_image_path: "Dipesh.png",
 		description:
 			"",
 	},
 	blogSection: {
 		title: "Blogs",
 		subtitle:
-			"",
-		link: "",
+			"Blogs for different trends in VR/AR",
+        link: "https://vrknown.blogspot.com/",
 		avatar_image_path: "blogs_image.svg",
 	},
 	addressSection: {
 		title: "Address",
 		subtitle:
-			"",
+			"1548, New Baselwa Colony, Faridabad, Haryana",
 		avatar_image_path: "address_image.svg",
-		location_map_link: "",
+        location_map_link: "https://www.google.co.in/maps/place/Old+Chungi,+Old+Faridabad,+Faridabad,+Haryana+121002/@28.4213132,77.323501,16z/data=!4m5!3m4!1s0x390cdda136096e0f:0x5ae9e198f5b0b3dc!8m2!3d28.4219218!4d77.3282324",
 	},
 	phoneSection: {
 		title: "Phone Number",
-		subtitle: "",
+		subtitle: "+919818557605",
 	},
 };
 
-export {
-	settings,
-	greeting,
-	socialMediaLinks,
-	skills,
-	competitiveSites,
-	degrees,
-	certifications,
-	experience,
-	projectsHeader,
-	contactPageData,
-};
+export { settings, greeting, socialMediaLinks, skills, competitiveSites, degrees, certifications, experience, projectsHeader, contactPageData, };
